@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Research paper folders (large PDFs, not needed in repo)
+NeuroCogFramework/
+LinguisticFramework/
+AssetMapping/
+AssetMappingFrameworks/
+PersonalityFrameworks/
+InformalLearningFrameworks/
+
+# Other large files
+*.pdf
+NeuroCog_LMS.txt
+LMSpotentialsystem.png
