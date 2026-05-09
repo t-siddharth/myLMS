@@ -19,3 +19,16 @@ InformalLearningFrameworks/
 *.pdf
 NeuroCog_LMS.txt
 LMSpotentialsystem.png
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Environment secrets
+.env
+backend/.env
+
+# Build outputs
+dist/
+build/
