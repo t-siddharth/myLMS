@@ -77,4 +77,41 @@
 
 ---
 
+### 2026-05-09 (Round 3 — BUILD) | Luis (Agent: Antigravity/Claude Opus)
+
+> ⚠️ **TEAM NOTICE: BUILD IN PROGRESS — DO NOT DUPLICATE THIS WORK**
+> Luis's agent is actively building the Discovery Stage MVP. If you are working on other parts of the system, please coordinate here first.
+
+**What is being built RIGHT NOW:**
+- `frontend/` — Vite + React app with premium dark UI
+  - Landing page, Discovery intake flow (4 steps), Profile dashboard, Path recommendations
+- `backend/` — Python FastAPI
+  - Handwriting OCR (Google Vision API), Cognitive scoring (Gemini), Linguistic analysis, Profile builder, Path recommender
+
+**Tech Stack (confirmed):**
+- Frontend: Vite + React + Vanilla CSS
+- Backend: Python FastAPI
+- AI: Google Gemini API + Google Vision API
+- Database: SQLite (MVP)
+
+**Scope (confirmed): Discovery Stage MVP ONLY**
+- ✅ Intake flow (survey → video → handwritten notes → AI text chat)
+- ✅ Cognitive profile generation (5 domains + CUTRICE)
+- ✅ Path recommendations (3 options with confidence scores)
+- ❌ NOT building: course delivery, LMS shell, Commitment Stage, human coach features
+
+**What team members CAN work on in parallel without conflict:**
+- Course catalog / curriculum content creation
+- User journey / UX wireframes for Commitment Stage
+- Course tagging with cognitive demand profiles + competencies
+- Data privacy / ethics framework
+- Business model / market research
+
+**Files Reference:**
+- `_workspace/implementation_plan.md` — Full technical plan
+- `_workspace/research_analysis.md` — Research foundation
+- `_workspace/response_to_comments.md` — Design decisions with rationale
+
+---
+
 *Add new entries below this line. Format: Date | Team Member (Agent) | Work summary.*
